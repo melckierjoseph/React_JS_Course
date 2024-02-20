@@ -1,0 +1,12 @@
+table, th, tr, td
+{
+    border: 1px solid;
+    width: 200px;
+}
+
+.btnClick
+{
+    width: 200px;
+    height: 40px ;
+    padding: 10px;
+}
