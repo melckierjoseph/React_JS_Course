@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Cardstyle{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    margin: auto;
+}
+
+h3{
+  margin: 10px 0;
+}
+
+h6{
+  margin: 5px 0;;
+  text-transform: uppercase;
+
+}
+
+p{
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+
+  
+}
+h3{
+    text-align: center;
+}
+h6{
+    margin: 5px 0;
+    text-transform: uppercase;
+}
+
+.card-container{
+    background-color: rgb(60, 61, 65);
+    border-radius: 5px;
+    box-shadow: 0 10px 20px -10px rgba(rgb(0, 0, 0));
+    color: rgb(139, 142, 144);
+    padding-top: 30px;
+    width: 350px;
+    max-width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.pro{
+    color:darkslategray;
+    background-color: red;
+    border-radius: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 30px;
+    left: 30px ;
+    padding: 5px;
+}
+
+.online {
+    background-color:rgb(135, 213, 18);
+}
+.offline
+{
+    background-color: rgb(199, 144, 25);
+}
+
+.imges{
+    border: 3px solid rgb(35, 115, 236);
+    border-radius: 50%;
+    padding: 7px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+button.primary{
+    background-color: rgb(35, 115, 236);
+    border: 1px solid  rgb(35, 115, 236);
+    border-radius: 3px;
+    color: white;
+    padding: 10px 25px;
+}
+
+button.primary.outline{
+    background-color: transparent
+
+}
+
+.skills{
+background-color: rgb(53, 53, 53);
+text-align: left;
+margin-top: 5px;
+padding: 10px;
+}
+
+.skills ul {
+    
+list-style-type: none;
+}
+
+.skills ul li {
+    border: 1px solid rgb(35, 115, 236);
+    display: inline-block;
+    border-radius: 2px;
+    padding: 7px;
+    margin: 0 7px 7px 0;
+    font-size: 12px;
+}
